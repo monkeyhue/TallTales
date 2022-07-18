@@ -1,0 +1,12 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/snowball"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 6532001}, "model": "tta:item/stake"},
+		{"predicate": {"custom_model_data": 6532002}, "model": "tta:item/stake_projectile"},
+		{"predicate": {"custom_model_data": 6532003}, "model": "tta:item/silver_stake"},
+		{"predicate": {"custom_model_data": 6532004}, "model": "tta:item/silver_stake_projectile"}
+	]
+}

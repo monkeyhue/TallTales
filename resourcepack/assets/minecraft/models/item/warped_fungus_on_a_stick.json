@@ -1,0 +1,10 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/warped_fungus_on_a_stick"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 6532001}, "model": "tta:item/oculus"},
+		{"predicate": {"custom_model_data": 6532002}, "model": "tta:item/oculus_manic"}
+	]
+}

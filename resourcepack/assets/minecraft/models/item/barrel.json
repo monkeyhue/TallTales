@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:block/barrel",
+	"overrides": [
+		{"predicate": {"custom_model_data": 6532001}, "model": "tta:block/garlic_stage0"},
+		{"predicate": {"custom_model_data": 6532002}, "model": "tta:block/garlic_stage1"},
+		{"predicate": {"custom_model_data": 6532003}, "model": "tta:block/garlic_stage2"},
+		{"predicate": {"custom_model_data": 6532004}, "model": "tta:block/garlic_stage3"},
+		{"predicate": {"custom_model_data": 6532005}, "model": "tta:block/garlic_stage4"},
+		{"predicate": {"custom_model_data": 6532006}, "model": "tta:block/alchemy_table"},
+		{"predicate": {"custom_model_data": 6532007}, "model": "tta:item/block/alchemy_table"},
+		{"predicate": {"custom_model_data": 6532008}, "model": "tta:block/slime_geyser"},
+		{"predicate": {"custom_model_data": 6532009}, "model": "tta:item/block/slime_geyser"}
+	]
+}
