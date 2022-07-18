@@ -1,0 +1,1 @@
+execute as @e[type=snowball,limit=1,tag=!tta.projectile.silver_stake,sort=nearest,nbt={Item:{id:"minecraft:snowball",Count:1b,tag:{CustomModelData:6532003}}}] at @s run function tta:entity/projectile/thrown/silver_stake/init

@@ -1,0 +1,32 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Durability: ",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "nbt": "heldItemDurability.uses",
+          "storage": "tta:root"
+        },
+        {
+          "text": " / "
+        },
+        {
+          "nbt": "heldItemDurability.max",
+          "storage": "tta:root"
+        }
+      ],
+      {
+        "text": "Tall Tales",
+        "color": "dark_red",
+        "italic": true
+      }
+    ],
+    "replace": false
+  }
+]

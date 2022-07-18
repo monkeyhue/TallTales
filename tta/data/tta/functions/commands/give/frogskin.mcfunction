@@ -1,0 +1,1 @@
+give @s clock{display:{Name:'{"translate":"tta.item.frogzilla_skin","italic":false}',Lore:['{"text":"Tall Tales","color":"dark_red","bold":false,"italic":true}']},HideFlags:32,CustomModelData:6532001,tta:{item:{id:2,useable:0b,alchemy:1b}}} 1

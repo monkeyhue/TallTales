@@ -1,0 +1,9 @@
+{
+	"replace":false,
+	"values":[
+		"minecraft:marker",
+		"minecraft:slime",
+		"minecraft:wither_skeleton",
+		"minecraft:armor_stand"
+	]
+}

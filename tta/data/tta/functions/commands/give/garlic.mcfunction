@@ -1,0 +1,1 @@
+give @s item_frame{display:{Name:'{"translate":"tta.item.garlic","italic":false}',Lore:['{"text":"Tall Tales","color":"dark_red","bold":false,"italic":true}']},HideFlags:32,CustomModelData:6532001,tta:{item:{id:1,useable:0b,block:1b,alchemy:1b}},EntityTag:{Silent:1b,Invisible:1b,Fixed:1b,Tags:["tta.block","tta.block.spawner","tta.block.spawner.garlic"]}} 1

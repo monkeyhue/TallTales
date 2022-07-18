@@ -1,0 +1,1 @@
+give @s furnace{display:{Name:'{"translate":"tta.block.alchemy_table","italic":false}',Lore:['{"text":"Tall Tales","color":"dark_red","bold":false,"italic":true}']},HideFlags:32,CustomModelData:6532006,tta:{item:{id:11,useable:0b,block:1b}},BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"tta:alchemy_table"}}}}]}} 1

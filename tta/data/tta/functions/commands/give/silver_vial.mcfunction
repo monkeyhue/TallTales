@@ -1,0 +1,1 @@
+give @s clock{display:{Name:'{"translate":"tta.item.vial","italic":false}',Lore:['{"text":"Tall Tales","color":"dark_red","bold":false,"italic":true}']},HideFlags:32,CustomModelData:6532007,tta:{item:{id:13,useable:0b}}} 1

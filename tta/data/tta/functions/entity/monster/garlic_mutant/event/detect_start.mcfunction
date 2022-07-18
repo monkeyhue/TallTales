@@ -1,0 +1,12 @@
+execute positioned ~ ~1 ~ rotated ~ ~ run function tta:entity/monster/garlic_mutant/event/detect/1
+execute positioned ~ ~1 ~ rotated ~30 ~ run function tta:entity/monster/garlic_mutant/event/detect/1
+execute positioned ~ ~1 ~ rotated ~60 ~ run function tta:entity/monster/garlic_mutant/event/detect/1
+execute positioned ~ ~1 ~ rotated ~90 ~ run function tta:entity/monster/garlic_mutant/event/detect/1
+execute positioned ~ ~1 ~ rotated ~120 ~ run function tta:entity/monster/garlic_mutant/event/detect/1
+execute positioned ~ ~1 ~ rotated ~150 ~ run function tta:entity/monster/garlic_mutant/event/detect/1
+execute positioned ~ ~1 ~ rotated ~180 ~ run function tta:entity/monster/garlic_mutant/event/detect/1
+execute positioned ~ ~1 ~ rotated ~210 ~ run function tta:entity/monster/garlic_mutant/event/detect/1
+execute positioned ~ ~1 ~ rotated ~240 ~ run function tta:entity/monster/garlic_mutant/event/detect/1
+execute positioned ~ ~1 ~ rotated ~270 ~ run function tta:entity/monster/garlic_mutant/event/detect/1
+execute positioned ~ ~1 ~ rotated ~300 ~ run function tta:entity/monster/garlic_mutant/event/detect/1
+execute positioned ~ ~1 ~ rotated ~330 ~ run function tta:entity/monster/garlic_mutant/event/detect/1

@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+		  "weight": 65,
+          "name": "tta:item/toxic_sludge"
+        },
+		{
+          "type": "minecraft:item",
+		  "weight": 20,
+          "name": "minecraft:slime_ball"
+        },
+		{
+          "type": "minecraft:item",
+		  "weight": 3,
+          "name": "minecraft:bone"
+        },
+		{
+          "type": "minecraft:item",
+		  "weight": 10,
+          "name": "minecraft:tuff"
+        },
+		{
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "minecraft:raw_iron"
+        },
+		{
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "minecraft:raw_gold"
+        }
+      ]
+    }
+  ]
+}

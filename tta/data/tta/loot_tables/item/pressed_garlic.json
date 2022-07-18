@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"tta.item.jar_garlic\",\"italic\":false}',Lore:['{\"text\":\"Tall Tales\",\"color\":\"dark_red\",\"bold\":false,\"italic\":true}']},HideFlags:32,CustomModelData:6532008,tta:{item:{id:14,useable:0b,alchemy:1b}}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

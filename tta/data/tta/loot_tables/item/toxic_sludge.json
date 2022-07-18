@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"tta.item.nuclear_waste\",\"italic\":false}',Lore:['{\"text\":\"Tall Tales\",\"color\":\"dark_red\",\"bold\":false,\"italic\":true}']},HideFlags:32,CustomModelData:6532013,tta:{item:{id:15,useable:0b,alchemy:1b}}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

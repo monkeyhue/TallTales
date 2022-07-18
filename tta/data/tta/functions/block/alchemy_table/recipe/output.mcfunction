@@ -1,0 +1,1 @@
+execute if score @s monkeyhue.block.var1 matches 14 run function tta:block/alchemy_table/recipe/output/14

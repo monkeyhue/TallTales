@@ -1,0 +1,1 @@
+give @s clock{display:{Name:'{"translate":"tta.item.silver_nugget","italic":false}',Lore:['{"text":"Tall Tales","color":"dark_red","bold":false,"italic":true}']},HideFlags:32,CustomModelData:6532005,tta:{item:{id:9,useable:0b,alchemy:1b}}} 1

@@ -1,0 +1,1 @@
+execute positioned ~ ~3 ~ run function tta:entity/monster/garlic_mutant/event/detect_start

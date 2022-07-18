@@ -1,0 +1,22 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "tta:root"
+    },
+    "ops": [
+      {
+        "source": "heldItemDurability.uses",
+        "target": "tta.item.durability.uses",
+        "op": "replace"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.25
+      }
+    ]
+  }
+]

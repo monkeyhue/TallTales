@@ -1,0 +1,14 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Tall Tales",
+        "color": "dark_red",
+        "italic": true
+      }
+    ],
+    "replace": false
+  }
+]

@@ -1,0 +1,15 @@
+{
+	"replace":false,
+	"values":[
+		"minecraft:player",
+		"minecraft:villager",
+		"minecraft:zombie_villager",
+		"minecraft:witch",
+		"minecraft:piglin",
+		"minecraft:chicken",
+		"minecraft:cow",
+		"minecraft:pig",
+		"minecraft:goat",
+		"minecraft:sheep"
+	]
+}

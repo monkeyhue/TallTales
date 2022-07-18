@@ -1,0 +1,4 @@
+execute as @e[type=marker,tag=tta.entity.frogzilla2,limit=1,sort=nearest] unless score @s monkeyhue.entity.AIState matches 1 unless score @s monkeyhue.entity.AIState matches 5..19 unless score @s monkeyhue.time5 matches 1.. run scoreboard players set @e[type=marker,tag=tta.entity.frogzilla2,limit=1,sort=nearest] monkeyhue.entity.AIState 19
+execute as @e[type=marker,tag=tta.entity.frogzilla2,limit=1,sort=nearest] unless score @s monkeyhue.time5 matches 1.. run scoreboard players set @s monkeyhue.time5 200
+advancement revoke @s only tta:util/hit_frogzilla_eye
+tag @s add tta.temp.frogzillaTargeted

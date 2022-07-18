@@ -1,0 +1,19 @@
+#-------------------------------------------------------------#
+#
+# Controls Frogzilla.
+#
+#-------------------------------------------------------------#
+execute unless score @s monkeyhue.temp2 matches 21 positioned ~ ~12 ~ as @e[type=wither_skeleton,tag=tta.render.frogzilla,sort=nearest,limit=1] run function tta:entity/monster/frogzilla2/anim/21
+execute unless score @s monkeyhue.temp2 matches 21 run scoreboard players reset @s monkeyhue.time3
+execute unless score @s monkeyhue.temp2 matches 21 run scoreboard players set @s monkeyhue.temp2 21
+
+scoreboard players add @s monkeyhue.time3 1
+
+execute if score @s monkeyhue.time3 matches 30 run playsound minecraft:block.wet_grass.step hostile @a ~ ~ ~ 8 0.7
+execute if score @s monkeyhue.time3 matches 30 run playsound minecraft:entity.hoglin.step hostile @a ~ ~ ~ 8 0.5
+
+execute if score @s monkeyhue.time3 matches 30 at @a[distance=..40,nbt={OnGround:1b}] run summon area_effect_cloud ~ ~ ~ {Particle:"minecraft:block minecraft:air",ReapplicationDelay:0,Radius:0.5f,RadiusPerTick:0f,RadiusOnUse:-0.5f,Duration:2,Age:-1,WaitTime:0,Effects:[{Id:25b,Amplifier:40b,Duration:2,ShowParticles:0b}]}
+execute if score @s monkeyhue.time3 matches 30 at @a[distance=40..100,nbt={OnGround:1b}] run summon area_effect_cloud ~ ~ ~ {Particle:"minecraft:block minecraft:air",ReapplicationDelay:0,Radius:0.5f,RadiusPerTick:0f,RadiusOnUse:-0.5f,Duration:2,Age:-1,WaitTime:0,Effects:[{Id:25b,Amplifier:30b,Duration:2,ShowParticles:0b}]}
+
+execute if score @s monkeyhue.time3 matches 40.. run scoreboard players set @s monkeyhue.entity.AIState 22
+

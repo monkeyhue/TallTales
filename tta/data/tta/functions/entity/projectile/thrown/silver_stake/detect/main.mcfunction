@@ -1,0 +1,1 @@
+execute if score @s monkeyhue.time1 matches 2.. unless entity @e[type=snowball,limit=1,sort=nearest,tag=tta.projectile.silver_stake,distance=0..0.2] run function tta:entity/projectile/thrown/silver_stake/detect/hit
