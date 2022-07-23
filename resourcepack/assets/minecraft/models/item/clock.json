@@ -17,6 +17,8 @@
 		{"predicate": {"custom_model_data": 6532010}, "model": "tta:item/jar_nightshade"},
 		{"predicate": {"custom_model_data": 6532011}, "model": "tta:item/jar_crimson"},
 		{"predicate": {"custom_model_data": 6532012}, "model": "tta:item/jar_warped"},
-		{"predicate": {"custom_model_data": 6532013}, "model": "tta:item/toxic_sludge"}
+		{"predicate": {"custom_model_data": 6532013}, "model": "tta:item/toxic_sludge"},
+		{"predicate": {"custom_model_data": 6532201}, "model": "tta:item/icon_footprint"},
+		{"predicate": {"custom_model_data": 6532202}, "model": "tta:item/icon_frogzilla"}
 	]
 }

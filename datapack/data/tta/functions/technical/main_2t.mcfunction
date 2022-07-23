@@ -11,4 +11,4 @@ execute as @a if data entity @s SelectedItem{tag:{tta:{item:{useable:1b}}}} if d
 # All entity commands handled here
 execute as @e[type=item_frame,tag=tta.block_2t] at @s run function tta:block/main_2t
 
-schedule function tta:main_2t 2t
+schedule function tta:technical/main_2t 2t

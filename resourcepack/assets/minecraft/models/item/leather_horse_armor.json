@@ -54,6 +54,24 @@
 		{"predicate": {"custom_model_data": 6532053}, "model": "tta:entity/garlic/die_mobile"},
 		{"predicate": {"custom_model_data": 6532054}, "model": "tta:entity/garlic/sleep/in"},
 		{"predicate": {"custom_model_data": 6532055}, "model": "tta:entity/garlic/die_ground_end"},
-		{"predicate": {"custom_model_data": 6532056}, "model": "tta:entity/garlic/die_mobile_end"}
+		{"predicate": {"custom_model_data": 6532056}, "model": "tta:entity/garlic/die_mobile_end"},
+		{"predicate": {"custom_model_data": 6532501}, "model": "tta:entity/frogzilla/hurt/walk"},
+		{"predicate": {"custom_model_data": 6532502}, "model": "tta:entity/frogzilla/hurt/run"},
+		{"predicate": {"custom_model_data": 6532503}, "model": "tta:entity/frogzilla/hurt/tongue_1"},
+		{"predicate": {"custom_model_data": 6532504}, "model": "tta:entity/frogzilla/hurt/turn_right"},
+		{"predicate": {"custom_model_data": 6532505}, "model": "tta:entity/frogzilla/hurt/turn_left"},
+		{"predicate": {"custom_model_data": 6532506}, "model": "tta:entity/frogzilla/hurt/tongue_2"},
+		{"predicate": {"custom_model_data": 6532507}, "model": "tta:entity/frogzilla/hurt/tongue_3"},
+		{"predicate": {"custom_model_data": 6532508}, "model": "tta:entity/frogzilla/hurt/tongue_4"},
+		{"predicate": {"custom_model_data": 6532509}, "model": "tta:entity/frogzilla/hurt/tongue_5"},
+		{"predicate": {"custom_model_data": 6532510}, "model": "tta:entity/frogzilla/hurt/tongue_6"},
+		{"predicate": {"custom_model_data": 6532511}, "model": "tta:entity/frogzilla/hurt/roar"},
+		{"predicate": {"custom_model_data": 6532517}, "model": "tta:entity/frogzilla/hurt/belly_flop"},
+		{"predicate": {"custom_model_data": 6532518}, "model": "tta:entity/frogzilla/hurt/getup_loop"},
+		{"predicate": {"custom_model_data": 6532519}, "model": "tta:entity/frogzilla/hurt/getup"},
+		{"predicate": {"custom_model_data": 6532520}, "model": "tta:entity/frogzilla/hurt/roar_2"},
+		{"predicate": {"custom_model_data": 6532521}, "model": "tta:entity/frogzilla/hurt/roar_3"},
+		{"predicate": {"custom_model_data": 6532522}, "model": "tta:entity/frogzilla/hurt/roar_4"},
+		{"predicate": {"custom_model_data": 6532523}, "model": "tta:entity/frogzilla/hurt/spit"}
 	]
 }

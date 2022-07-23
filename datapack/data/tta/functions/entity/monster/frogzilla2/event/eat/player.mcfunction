@@ -4,13 +4,9 @@
 #
 #-------------------------------------------------------------#
 
-gamerule showDeathMessages false
-
-kill @s
-
-execute if entity @s[tag=tta.temp.eatingByFrogzilla] run tellraw @a [{"selector":"@s","color":"white","hoverEvent":{"action":"show_entity","contents":"@s"}},{"text":" was devoured by Frogzilla","color":"white"}]
+scoreboard players set @s monkeyhue.player.deathMessageID 2
+scoreboard players add @s smithed.damage 50
+function #smithed.damage:entity/apply/armor
 
 tag @s remove tta.temp.frogzillaTargeted
 tag @s remove tta.temp.eatingByFrogzilla
-
-gamerule showDeathMessages true

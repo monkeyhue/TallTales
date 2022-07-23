@@ -42,7 +42,7 @@ execute if score @s monkeyhue.entity.AIState matches 8 run function tta:entity/m
 # Tongue 6
 execute if score @s monkeyhue.entity.AIState matches 9 run function tta:entity/monster/frogzilla2/state/9
 
-# Roar
+# Roar 1
 execute if score @s monkeyhue.entity.AIState matches 10 run function tta:entity/monster/frogzilla2/state/10
 
 # Run
@@ -94,19 +94,31 @@ execute if score @s monkeyhue.entity.AIState matches 28 run function tta:entity/
 # Fireball (Into Atomic Breath)
 execute if score @s monkeyhue.entity.AIState matches 29 run function tta:entity/monster/frogzilla2/state/29
 
+# Atomic Breath (Up)
+execute if score @s monkeyhue.entity.AIState matches 30 run function tta:entity/monster/frogzilla2/state/30
+
 #----- Other Behavior -----#
 
 scoreboard players add @s monkeyhue.time1 1
 scoreboard players add @s monkeyhue.time2 1
 execute if score @s monkeyhue.time5 matches 1.. run scoreboard players remove @s monkeyhue.time5 1
 execute if score @s monkeyhue.time6 matches 1.. run scoreboard players remove @s monkeyhue.time6 1
+scoreboard players add @s monkeyhue.time7 1
 
 #Roars to aggro onto players/mobs
 execute if score @s monkeyhue.time2 matches 110 unless score @s monkeyhue.entity.AIState matches 5..30 unless score @s monkeyhue.entity.AIState matches 1 run scoreboard players set @s monkeyhue.entity.AIState 10
 
-execute if score @s monkeyhue.time2 matches 1710 unless score @s monkeyhue.entity.AIState matches 5..30 unless score @s monkeyhue.entity.AIState matches 1 run scoreboard players set @s monkeyhue.entity.AIState 10
+execute if score @s monkeyhue.time2 matches 910 unless score @s monkeyhue.entity.AIState matches 5..30 unless score @s monkeyhue.entity.AIState matches 1 run scoreboard players set @s monkeyhue.entity.AIState 24
+
+execute if score @s monkeyhue.time2 matches 1710 unless score @s monkeyhue.entity.AIState matches 5..30 unless score @s monkeyhue.entity.AIState matches 1 run scoreboard players set @s monkeyhue.entity.AIState 25
+
+execute if score @s monkeyhue.time2 matches 2510 unless score @s monkeyhue.entity.AIState matches 5..30 unless score @s monkeyhue.entity.AIState matches 1 run scoreboard players set @s monkeyhue.entity.AIState 26
 
 execute if score @s monkeyhue.time2 matches 3200.. run scoreboard players reset @s monkeyhue.time2
+
+#Atomic Breath
+
+execute if score @s monkeyhue.time7 matches 800.. unless score @s monkeyhue.entity.AIState matches 0..10 unless score @s monkeyhue.entity.AIState matches 12.. if entity @a[distance=32..96] run scoreboard players set @s monkeyhue.entity.AIState 27
 
 #Kills Frogzilla
 execute if score @s monkeyhue.entity.customHealth matches ..0 unless score @s monkeyhue.entity.AIState matches 17..18 run scoreboard players set @s monkeyhue.entity.AIState 17

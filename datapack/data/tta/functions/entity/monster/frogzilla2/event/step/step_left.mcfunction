@@ -21,7 +21,7 @@ execute at @s if score @s monkeyhue.temp6 matches 1.. positioned ^4 ^6 ^ run fun
 execute at @s if score @s monkeyhue.temp6 matches 1.. positioned ^4 ^7 ^ run function tta:entity/monster/frogzilla2/event/break_stuff
 execute at @s if score @s monkeyhue.temp6 matches 1.. positioned ^4 ^8 ^ run function tta:entity/monster/frogzilla2/event/break_stuff
 
-execute if score @s monkeyhue.entity.AIState matches 11 positioned ~ ~60 ~ facing ~ ~59 ~ run function tta:entity/monster/frogzilla2/event/tongue/raycast/vertical_test
+execute if score @s monkeyhue.entity.AIState matches 11 positioned ~ ~128 ~ facing ~ ~127 ~ run function tta:entity/monster/frogzilla2/event/tongue/raycast/vertical_test
 execute unless score @s monkeyhue.time6 matches 1.. positioned ^ ^15 ^12 facing ^ ^3 ^12 run function tta:entity/monster/frogzilla2/event/tongue/raycast/4
 execute unless score @s monkeyhue.time6 matches 1.. positioned ^ ^10.4 ^12 facing ^ ^0.6 ^12 run function tta:entity/monster/frogzilla2/event/tongue/raycast/3
 execute unless score @s monkeyhue.time6 matches 1.. positioned ^ ^10.4 ^12 facing ^ ^-1.7 ^12 run function tta:entity/monster/frogzilla2/event/tongue/raycast/2

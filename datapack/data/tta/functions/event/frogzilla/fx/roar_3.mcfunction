@@ -1,0 +1,1 @@
+execute at @p[tag=tta.temp.frogzillaTargeted] run playsound minecraft:tta.entity.frogzilla.roar master @p[tag=tta.temp.frogzillaTargeted] ~ ~ ~ 6 1

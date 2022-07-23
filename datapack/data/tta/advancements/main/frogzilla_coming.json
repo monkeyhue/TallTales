@@ -1,0 +1,24 @@
+{
+	"parent": "tta:main/root",
+    "display": {
+        "title": {
+			"translate": "tta.advancement.frogzilla_coming.name"
+		},
+        "description": {
+            "translate": "tta.advancement.frogzilla_coming.description"
+        },
+        "icon": {
+            "item": "minecraft:clock",
+            "nbt": "{CustomModelData:6532201}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "task1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

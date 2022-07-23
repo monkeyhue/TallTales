@@ -18,4 +18,5 @@ execute if score @s monkeyhue.time1 matches 64.. run scoreboard players remove @
 #execute if block ~ ~ ~ tnt run setblock ~ ~ ~ air replace
 
 execute if score @s monkeyhue.time1 matches 80.. run function tta:entity/monster/frogzilla2/event/eat
+execute if score @s monkeyhue.time1 matches 80.. run scoreboard players add @e[type=marker,limit=1,sort=nearest,tag=tta.entity.frogzilla2,distance=0..48] monkeyhue.time6 100
 execute if score @s monkeyhue.time1 matches 80.. run kill @s

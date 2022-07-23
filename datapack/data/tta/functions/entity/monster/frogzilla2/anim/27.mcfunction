@@ -2,6 +2,7 @@
 data modify entity @s ArmorItems[3].tag.CustomModelData set value 6532022
 execute store result score %temp monkeyhue.temp1 run time query gametime
 scoreboard players set %tta.animLength monkeyhue.temp1 80
+execute facing entity @p eyes run teleport @s ~ ~ ~ ~180 ~
 
 # Get Autoanimation Frame
 scoreboard players operation %temp monkeyhue.temp1 %= %24000 monkeyhue.temp1

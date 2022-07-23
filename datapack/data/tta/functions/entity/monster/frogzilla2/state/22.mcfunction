@@ -17,4 +17,3 @@ execute if score @s monkeyhue.time4 matches 36 run playsound minecraft:entity.ho
 execute if score @s monkeyhue.time4 matches 50.. run scoreboard players reset @s monkeyhue.time4
 
 execute if score @s monkeyhue.time3 matches 200.. run scoreboard players set @s monkeyhue.entity.AIState 23
-

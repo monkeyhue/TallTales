@@ -27,3 +27,5 @@ execute unless score @s monkeyhue.time6 matches 1.. positioned ^ ^16 ^6 facing ^
 execute unless score @s monkeyhue.time6 matches 1.. positioned ^ ^17 ^6 facing ^ ^-5.7 ^6 run function tta:entity/monster/frogzilla2/event/tongue/raycast/6
 
 execute at @a[distance=100..,nbt={OnGround:1b}] run summon area_effect_cloud ~ ~ ~ {Particle:"minecraft:block minecraft:air",ReapplicationDelay:0,Radius:0.5f,RadiusPerTick:0f,RadiusOnUse:-0.5f,Duration:2,Age:-1,WaitTime:0,Effects:[{Id:25b,Amplifier:15b,Duration:2,ShowParticles:0b}]}
+
+execute if score @s monkeyhue.entity.AIState matches 11 positioned ^ ^3 ^10 if entity @a[distance=0..8] run scoreboard players set @s monkeyhue.entity.AIState 21 

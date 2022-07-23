@@ -4,12 +4,15 @@
 # This is the primary loading function for Tall
 # Tales and is necesarry for proper pack function. 
 #
+# Current Version: 0.4
+#
 #-------------------------------------------------------------#
 
-function tta:init/init_scoreboards
-function tta:init/init_forceloads
+function tta:technical/load/init_scoreboards
+function tta:technical/load/init_scores
 
-function tta:main
-function tta:main_2t
-function tta:main_5t
-function tta:main_20t
+function tta:technical/main
+function tta:technical/main_2t
+function tta:technical/main_5t
+function tta:technical/main_20t
+function tta:technical/main_200t

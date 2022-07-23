@@ -9,6 +9,7 @@ execute unless score @s monkeyhue.temp2 matches 11 run scoreboard players reset 
 execute unless score @s monkeyhue.temp2 matches 11 run scoreboard players set @s monkeyhue.temp2 11
 
 scoreboard players add @s monkeyhue.time3 1
+scoreboard players add @s monkeyhue.time7 1
 
 execute facing entity @e[type=!#tta:inedible,limit=1,tag=tta.temp.frogzillaTargeted] feet run teleport @s ^ ^ ^0.2 ~ 0
 execute unless block ~ ~0.25 ~ #tta:frogzilla_passable positioned ~ ~0.25 ~ facing entity @e[type=!#tta:inedible,limit=1,tag=tta.temp.frogzillaTargeted] feet run teleport @s ^ ^ ^0.57 ~ 0

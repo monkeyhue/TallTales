@@ -1,0 +1,24 @@
+{
+	"parent": "tta:main/frogzilla_coming",
+    "display": {
+        "title": {
+			"translate": "tta.advancement.frogzilla_spawn.name"
+		},
+        "description": {
+            "translate": "tta.advancement.frogzilla_spawn.description"
+        },
+        "icon": {
+            "item": "minecraft:clock",
+            "nbt": "{CustomModelData:6532202}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "task1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

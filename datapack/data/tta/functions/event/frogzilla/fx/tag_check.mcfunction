@@ -1,0 +1,1 @@
+execute unless entity @a[tag=tta.temp.frogzillaTargeted] run tag @r add tta.temp.frogzillaTargeted

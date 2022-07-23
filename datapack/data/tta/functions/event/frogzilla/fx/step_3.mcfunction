@@ -1,0 +1,2 @@
+execute at @p[tag=tta.temp.frogzillaTargeted] run playsound minecraft:block.wet_grass.step master @a ~ ~ ~ 4 0.7
+execute at @p[tag=tta.temp.frogzillaTargeted] run playsound minecraft:entity.hoglin.step master @a ~ ~ ~ 4 0.5

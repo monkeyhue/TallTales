@@ -4,8 +4,6 @@
 #
 #-------------------------------------------------------------#
 
-
-
 # Frogzilla
 execute if entity @s[tag=tta.entity.frogzilla2] run function tta:entity/monster/frogzilla2/main
 

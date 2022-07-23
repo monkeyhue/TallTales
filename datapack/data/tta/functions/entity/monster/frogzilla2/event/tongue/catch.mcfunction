@@ -9,4 +9,4 @@ playsound minecraft:entity.slime.squish hostile @a ~ ~ ~ 1 1
 execute if entity @s[type=!player] run tag @s add tta.temp.eatingByFrogzilla
 execute if entity @s[type=tnt] run data merge entity @s {Fuse:100}
 execute if entity @s[type=player,gamemode=!creative,gamemode=!spectator] run tag @s add tta.temp.eatingByFrogzilla
-execute if entity @s[type=player,gamemode=!creative,gamemode=!spectator] run effect give @s slow_falling 4 0 true
+execute if entity @s[type=player,gamemode=!creative,gamemode=!spectator] run effect give @s levitation 2 255 true

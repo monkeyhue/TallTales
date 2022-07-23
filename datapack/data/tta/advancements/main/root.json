@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Tall Tales"
+        },
+        "description": {
+            "text": "(Info will go here when I release to smifed)",
+            "color": "red"
+        },
+        "icon": {
+            "item": "minecraft:clock",
+            "nbt": "{CustomModelData:6532004}"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/red_wool.png"
+    },
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "root"
+        ]
+    ]
+}
