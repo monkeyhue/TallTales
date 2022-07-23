@@ -1,7 +1,0 @@
-{
-    "parent": "minecraft:block/barrel",
-	"overrides": [
-		{"predicate": {"custom_model_data": 6532006}, "model": "tta:item/block/alchemy_table"},
-		{"predicate": {"custom_model_data": 6532007}, "model": "tta:item/block/slime_geyser"}
-	]
-}
