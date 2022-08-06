@@ -132,6 +132,25 @@
 		{"predicate": {"custom_model_data": 6532574}, "model": "tta:entity/werewolf/brown/hurt/howl"},
 		{"predicate": {"custom_model_data": 6532575}, "model": "tta:entity/werewolf/brown/hurt/howl2"},
 		{"predicate": {"custom_model_data": 6532576}, "model": "tta:entity/werewolf/brown/hurt/walk"},
-		{"predicate": {"custom_model_data": 6532577}, "model": "tta:entity/werewolf/brown/hurt/die"}
+		{"predicate": {"custom_model_data": 6532577}, "model": "tta:entity/werewolf/brown/hurt/die"},
+		
+		{"predicate": {"custom_model_data": 6532580}, "model": "tta:entity/werewolf/black/hurt/idle"},
+		{"predicate": {"custom_model_data": 6532581}, "model": "tta:entity/werewolf/black/hurt/idle2"},
+		{"predicate": {"custom_model_data": 6532582}, "model": "tta:entity/werewolf/black/hurt/run"},
+		{"predicate": {"custom_model_data": 6532583}, "model": "tta:entity/werewolf/black/hurt/run2"},
+		{"predicate": {"custom_model_data": 6532584}, "model": "tta:entity/werewolf/black/hurt/run2_in"},
+		{"predicate": {"custom_model_data": 6532585}, "model": "tta:entity/werewolf/black/hurt/jump"},
+		{"predicate": {"custom_model_data": 6532586}, "model": "tta:entity/werewolf/black/hurt/jump_in"},
+		{"predicate": {"custom_model_data": 6532587}, "model": "tta:entity/werewolf/black/hurt/jump_out1"},
+		{"predicate": {"custom_model_data": 6532588}, "model": "tta:entity/werewolf/black/hurt/jump_out2"},
+		{"predicate": {"custom_model_data": 6532589}, "model": "tta:entity/werewolf/black/hurt/detect"},
+		{"predicate": {"custom_model_data": 6532590}, "model": "tta:entity/werewolf/black/hurt/eat"},
+		{"predicate": {"custom_model_data": 6532591}, "model": "tta:entity/werewolf/black/hurt/attack"},
+		{"predicate": {"custom_model_data": 6532592}, "model": "tta:entity/werewolf/black/hurt/attack2"},
+		{"predicate": {"custom_model_data": 6532593}, "model": "tta:entity/werewolf/black/hurt/attack3"},
+		{"predicate": {"custom_model_data": 6532594}, "model": "tta:entity/werewolf/black/hurt/howl"},
+		{"predicate": {"custom_model_data": 6532595}, "model": "tta:entity/werewolf/black/hurt/howl2"},
+		{"predicate": {"custom_model_data": 6532596}, "model": "tta:entity/werewolf/black/hurt/walk"},
+		{"predicate": {"custom_model_data": 6532597}, "model": "tta:entity/werewolf/black/hurt/die"}
 	]
 }
