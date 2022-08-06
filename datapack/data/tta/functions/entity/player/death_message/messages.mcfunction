@@ -13,3 +13,7 @@ execute if score @s monkeyhue.player.deathMessageID matches 9 run tellraw @a [{"
 execute if score @s monkeyhue.player.deathMessageID matches 10 run tellraw @a [{"selector":"@s","color":"white","hoverEvent":{"action":"show_entity","contents":"@s"}},{"translate":"tta.player.death_message.10"}]
 
 execute if score @s monkeyhue.player.deathMessageID matches 11 run tellraw @a [{"selector":"@s","color":"white","hoverEvent":{"action":"show_entity","contents":"@s"}},{"translate":"tta.player.death_message.11"}]
+
+execute if score @s monkeyhue.player.deathMessageID matches 12 run tellraw @a [{"selector":"@s","color":"white","hoverEvent":{"action":"show_entity","contents":"@s"}},{"translate":"tta.player.death_message.12"}]
+
+execute if score @s monkeyhue.player.deathMessageID matches 13 run tellraw @a [{"selector":"@s","color":"white","hoverEvent":{"action":"show_entity","contents":"@s"}},{"translate":"tta.player.death_message.13"}]

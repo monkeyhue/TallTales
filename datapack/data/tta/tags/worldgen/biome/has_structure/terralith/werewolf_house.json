@@ -1,0 +1,25 @@
+{
+  "values": [
+    "terralith:alpine_grove",
+    "terralith:alpine_highlands",
+    "terralith:birch_taiga",
+	"terralith:blooming_valley",
+	"terralith:cloud_forest",
+	"terralith:forested_highlands",
+	"terralith:haze_mountain",
+	"terralith:highlands",
+	"terralith:shield_clearing",
+	"terralith:shield",
+	"terralith:siberian_grove",
+	"terralith:siberian_taiga",
+	"terralith:skylands",
+	"terralith:skylands_winter",
+	"terralith:snowy_maple_forest",
+	"terralith:snowy_shield",
+	"terralith:temperate_highlands",
+	"terralith:valley_clearing",
+	"terralith:wintry_forest",
+	"terralith:wintry_lowlands",
+	"terralith:yosemite_lowlands"
+  ]
+}

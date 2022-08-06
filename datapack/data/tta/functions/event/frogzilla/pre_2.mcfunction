@@ -5,6 +5,8 @@
 #-------------------------------------------------------------#
 
 function tta:event/frogzilla/announce_1
+schedule function tta:event/frogzilla/announce_1 1200t
 schedule function tta:event/frogzilla/announce_2 2400t
+schedule function tta:event/frogzilla/announce_2 3600t
 schedule function tta:event/frogzilla/announce_3 4800t
 schedule function tta:event/frogzilla/spawn 6000t

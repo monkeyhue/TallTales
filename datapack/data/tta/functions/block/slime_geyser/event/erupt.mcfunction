@@ -19,13 +19,13 @@ particle minecraft:item minecraft:clock{CustomModelData:6532013} ~ ~0.5 ~ ~ ~100
 #5 Tick Timer
 scoreboard players add @s monkeyhue.time2 1
 execute if score @s monkeyhue.time2 matches 5.. if score @s monkeyhue.block.var2 matches 1.. run function tta:block/slime_geyser/event/item
-execute if score @s monkeyhue.time2 matches 5.. positioned ~ ~1.5 ~ run effect give @e[distance=0..3,type=!#tta:not_mobs_players,limit=5,sort=nearest,tag=!global.ignore] poison 10 2
+execute if score @s monkeyhue.time2 matches 5.. positioned ~ ~1.5 ~ run effect give @e[distance=0..3,type=!#tta:not_mobs_players,limit=5,sort=nearest,tag=!tta.ignore] poison 10 2
 execute if score @s monkeyhue.time2 matches 5.. run playsound minecraft:block.fire.extinguish block @a ~ ~ ~ 0.5 1
 execute if score @s monkeyhue.time2 matches 5.. run scoreboard players reset @s monkeyhue.time2
 
 #Tick Timer
 scoreboard players add @s monkeyhue.time1 1
-execute if score @s monkeyhue.time1 matches 41 run summon creeper ~ ~0.5 ~ {Invulnerable:1b,DeathLootTable:"-",NoAI:1b,ExplosionRadius:-3b,Fuse:0,ignited:1b,CustomName:'{"text":"Slime Geyser"}',Tags:["global.ignore"]}
+execute if score @s monkeyhue.time1 matches 41 run summon creeper ~ ~0.5 ~ {Invulnerable:1b,DeathLootTable:"-",NoAI:1b,ExplosionRadius:-3b,Fuse:0,ignited:1b,CustomName:'{"text":"Slime Geyser"}',Tags:["tta.ignore"]}
 execute if score @s monkeyhue.time1 matches 100.. run scoreboard players reset @s monkeyhue.block.var1
 execute if score @s monkeyhue.time1 matches 100.. run scoreboard players reset @s monkeyhue.block.var2
 execute if score @s monkeyhue.time1 matches 100.. run scoreboard players reset @s monkeyhue.block.var3

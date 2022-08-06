@@ -4,8 +4,6 @@
 # This is the primary loading function for Tall
 # Tales and is necesarry for proper pack function. 
 #
-# Current Version: 0.4
-#
 #-------------------------------------------------------------#
 
 function tta:technical/load/init_scoreboards

@@ -48,6 +48,10 @@
   "tta.item.silver_stake": "§fSilver Stake",
   "tta.item.sponge_stake": "§fAbsorbent Stake",
   "tta.item.infused_stake": "§fInfused Stake",
+  "tta.item.werewolf_fur": "§fHair of Dog",
+  "tta.item.werewolf_claw": "§fWerewolf Claw",
+  "tta.item.flamethrower": "§fFlamethrower",
+  "tta.item.atomic_popper": "§fAtomic Popper",
   
   
   
@@ -64,6 +68,8 @@
   "tta.player.death_message.9c": "'s Oculo Insomnius",
   "tta.player.death_message.10": " was disintegrated by Frogzilla's atomic breath",
   "tta.player.death_message.11": " was squashed by Frogzilla",
+  "tta.player.death_message.12": " was ripped apart by a Werewolf",
+  "tta.player.death_message.13": " was disemboweled by a Werewolf",
   
   
   
@@ -90,6 +96,14 @@
   "tta.advancement.garlic_spawn.description": "§aFind an adversary among your alliums",
   "tta.advancement.garlic_killed.name": "Weedkiller",
   "tta.advancement.garlic_killed.description": "§aSlay a Garlic Mutant",
+  "tta.advancement.werewolf_summon.name": "For Here or To Go?",
+  "tta.advancement.werewolf_summon.description": "§aPlace a doggie bag and wait for something to show up",
+  "tta.advancement.werewolf_spawn.name": "Howling at The Moon",
+  "tta.advancement.werewolf_spawn.description": "§aEncounter a Werewolf during a full moon",
+  "tta.advancement.werewolf_killed.name": "I'm The Alpha Now!",
+  "tta.advancement.werewolf_killed.description": "§aDefeat a Werewolf",
+  "tta.advancement.werewolf_cookie.name": "A Vapid Waste of Cocoa Beans",
+  "tta.advancement.werewolf_cookie.description": "§5I hope you're proud of youself",
   
   "tta.advancement.alchemy_table.name": "Science Away!",
   "tta.advancement.alchemy_table.description": "§aCraft an Alchemy Table",

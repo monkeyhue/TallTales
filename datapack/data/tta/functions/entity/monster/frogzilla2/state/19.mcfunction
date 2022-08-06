@@ -3,7 +3,7 @@
 # Controls Frogzilla.
 #
 #-------------------------------------------------------------#
-execute unless score @s monkeyhue.temp2 matches 19 positioned ~ ~12 ~ as @e[type=wither_skeleton,tag=tta.render.frogzilla,sort=nearest,limit=1] run function tta:entity/monster/frogzilla2/anim/14
+execute unless score @s monkeyhue.temp2 matches 19 store result storage tta:root temp.entityAIState.frogzilla int 1 run scoreboard players get @s monkeyhue.entity.AIState
 execute unless score @s monkeyhue.temp2 matches 19 run scoreboard players reset @s monkeyhue.time3
 execute unless score @s monkeyhue.temp2 matches 19 run scoreboard players reset @s monkeyhue.temp3
 execute unless score @s monkeyhue.temp2 matches 19 run scoreboard players operation @s monkeyhue.entity.customHealth -= @s monkeyhue.temp9

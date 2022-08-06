@@ -3,7 +3,7 @@
 # Controls Frogzilla.
 #
 #-------------------------------------------------------------#
-execute unless score @s monkeyhue.temp2 matches 0 positioned ~ ~12 ~ as @e[type=wither_skeleton,tag=tta.render.frogzilla,sort=nearest,limit=1] run function tta:entity/monster/frogzilla2/anim/0
+execute unless score @s monkeyhue.temp2 matches 0 store result storage tta:root temp.entityAIState.frogzilla int 1 run scoreboard players get @s monkeyhue.entity.AIState
 execute unless score @s monkeyhue.temp2 matches 0 run execute store result score @s monkeyhue.time3 run loot spawn ~ ~ ~ loot tta:rng/frogzilla/walk_time
 execute unless score @s monkeyhue.temp2 matches 0 run scoreboard players reset @s monkeyhue.time4
 execute unless score @s monkeyhue.temp2 matches 0 run scoreboard players set @s monkeyhue.temp2 0

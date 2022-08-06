@@ -22,3 +22,4 @@ execute store result entity @s ArmorItems[3].tag.display.color int 1 run scorebo
 scoreboard players reset %temp monkeyhue.temp1
 scoreboard players reset %sum monkeyhue.temp1
 scoreboard players reset %tta.animLength monkeyhue.temp1
+scoreboard players set @s monkeyhue.temp2 29

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"tta.item.werewolf_claw\",\"italic\":false}',Lore:['{\"text\":\"Tall Tales\",\"color\":\"dark_red\",\"bold\":false,\"italic\":true}']},HideFlags:32,CustomModelData:6532015,tta:{item:{id:18,useable:0b}}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

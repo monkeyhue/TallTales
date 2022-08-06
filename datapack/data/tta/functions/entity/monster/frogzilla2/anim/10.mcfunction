@@ -25,3 +25,4 @@ scoreboard players reset %temp monkeyhue.temp1
 scoreboard players reset %sum monkeyhue.temp1
 scoreboard players reset %tta.animLength monkeyhue.temp1
 scoreboard players reset %tta.animLeft monkeyhue.temp1
+scoreboard players set @s monkeyhue.temp2 10

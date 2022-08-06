@@ -3,7 +3,7 @@
 # Controls Frogzilla.
 #
 #-------------------------------------------------------------#
-execute unless score @s monkeyhue.temp2 matches 9 positioned ~ ~12 ~ as @e[type=wither_skeleton,tag=tta.render.frogzilla,sort=nearest,limit=1] run function tta:entity/monster/frogzilla2/anim/8
+execute unless score @s monkeyhue.temp2 matches 9 store result storage tta:root temp.entityAIState.frogzilla int 1 run scoreboard players get @s monkeyhue.entity.AIState
 execute unless score @s monkeyhue.temp2 matches 9 run scoreboard players reset @s monkeyhue.time3
 execute unless score @s monkeyhue.temp2 matches 9 positioned ^ ^17 ^6 rotated as @s run summon armor_stand ~ ~ ~ {Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["tta.projectile","tta.projectile.enemy","tta.projectile.frogzilla1"]}
 execute unless score @s monkeyhue.temp2 matches 9 as @e[type=armor_stand,tag=tta.projectile.frogzilla1,distance=..64,sort=nearest,limit=1] run teleport @s ^ ^17 ^6 ~ ~

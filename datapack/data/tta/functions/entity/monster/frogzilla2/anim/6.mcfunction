@@ -1,5 +1,5 @@
 # Init
-data modify entity @s ArmorItems[3].tag.CustomModelData set value 6532008
+data modify entity @s ArmorItems[3].tag.CustomModelData set value 6532007
 execute store result score %temp monkeyhue.temp1 run time query gametime
 
 scoreboard players set %tta.animLength monkeyhue.temp1 104
@@ -27,3 +27,4 @@ scoreboard players reset %temp monkeyhue.temp1
 scoreboard players reset %sum monkeyhue.temp1
 scoreboard players reset %tta.animLength monkeyhue.temp1
 scoreboard players reset %tta.animLeft monkeyhue.temp1
+scoreboard players set @s monkeyhue.temp2 6

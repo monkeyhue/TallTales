@@ -1,8 +1,12 @@
 scoreboard players set %4 monkeyhue.temp1 4
 scoreboard players set %5 monkeyhue.temp1 5
+scoreboard players set %8 monkeyhue.temp1 8
 scoreboard players set %22 monkeyhue.temp1 22
 scoreboard players set %25 monkeyhue.temp1 25
 scoreboard players set %100 monkeyhue.temp1 100
+scoreboard players set %180 monkeyhue.temp1 180
+scoreboard players set %200 monkeyhue.temp1 200
+scoreboard players set %360 monkeyhue.temp1 360
 scoreboard players set %800 monkeyhue.temp1 800
 scoreboard players set %400 monkeyhue.temp1 400
 scoreboard players set %500 monkeyhue.temp1 500

@@ -5,7 +5,7 @@
 #
 # Enjoy Tall Tales, made by Monkeyhue!
 #
-# Current Version: 0.4
+# Current Version: 0.4.2
 #
 #-------------------------------------------------------------#
 
@@ -20,5 +20,7 @@ execute as @e[type=#tta:forced_mobs,tag=tta.entity,tag=smithed.strict] at @s run
 execute as @e[type=snowball,tag=tta.projectile,limit=100] at @s run function tta:entity/projectile/thrown/main
 execute as @e[type=armor_stand,tag=tta.projectile,limit=100] at @s run function tta:entity/projectile/main
 execute as @e[type=marker,tag=tta.projectile,limit=100] at @s run function tta:entity/projectile/main
+
+function tta:event/main
 
 schedule function tta:technical/main 1t

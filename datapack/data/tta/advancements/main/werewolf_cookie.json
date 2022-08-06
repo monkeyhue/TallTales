@@ -1,0 +1,23 @@
+{
+	"parent": "tta:main/root",
+    "display": {
+        "title": {
+			"translate": "tta.advancement.werewolf_cookie.name"
+		},
+        "description": {
+            "translate": "tta.advancement.werewolf_cookie.description"
+        },
+        "icon": {
+            "item": "minecraft:cookie"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "task1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -12,8 +12,8 @@ execute if score @s monkeyhue.damage.default matches 1.. run function tta:damage
 execute if score @s monkeyhue.damage.default matches 1.. run function tta:damage/apply_resist
 
 # Determine if the thing's dead
-execute if score @s[tag=!global.ignore,nbt=!{Invulnerable:1b}] monkeyhue.entity.health <= @s monkeyhue.damage run kill @s
-execute if score @s[tag=!global.ignore,nbt=!{Invulnerable:1b}] monkeyhue.entity.health > @s monkeyhue.damage store result entity @s Health float 0.01 run scoreboard players operation @s monkeyhue.entity.health -= @s monkeyhue.damage
+execute if score @s[tag=!tta.ignore,nbt=!{Invulnerable:1b}] monkeyhue.entity.health <= @s monkeyhue.damage run kill @s
+execute if score @s[tag=!tta.ignore,nbt=!{Invulnerable:1b}] monkeyhue.entity.health > @s monkeyhue.damage store result entity @s Health float 0.01 run scoreboard players operation @s monkeyhue.entity.health -= @s monkeyhue.damage
 
 # Post effects and scoreboard reset
 particle minecraft:damage_indicator ~ ~1 ~ 0.25 0.5 0.25 0.125 1

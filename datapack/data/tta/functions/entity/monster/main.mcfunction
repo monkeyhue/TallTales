@@ -9,3 +9,6 @@ execute if entity @s[tag=tta.entity.frogzilla2] run function tta:entity/monster/
 
 # Garlic Mutant
 execute if entity @s[tag=tta.entity.garlic_mutant] run function tta:entity/monster/garlic_mutant/main
+
+# Werewolf
+execute if entity @s[tag=tta.entity.werewolf] run function tta:entity/monster/werewolf/main

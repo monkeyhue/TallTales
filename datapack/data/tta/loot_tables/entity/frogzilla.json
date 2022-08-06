@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 8,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tta:item/toxic_sludge"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 19,
+        "max": 20
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tta:item/frogskin"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 5,
+        "max": 7
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone_block"
+        }
+      ]
+    },
+	{
+      "rolls": {
+        "min": 6,
+        "max": 12
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_ball"
+        }
+      ]
+    }
+  ]
+}

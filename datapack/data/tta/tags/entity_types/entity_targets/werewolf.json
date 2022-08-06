@@ -1,0 +1,10 @@
+{
+	"replace":false,
+	"values":[
+		"#tta:livestock",
+		"minecraft:villager",
+		"minecraft:player",
+		"minecraft:zombie",
+		"minecraft:zombie_villager"
+	]
+}
